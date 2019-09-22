@@ -20,11 +20,11 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
 	void FoundAimingComponent(UTankAimingComponent* AimCompRef);
 
-	UFUNCTION()
-	void OnPossessedTankDeath();
+	/*UFUNCTION()
+	void OnPossessedTankDeath();*/
 
 private:
-	void SetPawn(APawn* InPawn);
+	/*void SetPawn(APawn* InPawn);*/
 
 	virtual void BeginPlay() override;
 
